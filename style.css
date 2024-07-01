@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a:any-link {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background: #071952;
+    color: white;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 60px;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background-color: #088395;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+form input {
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+form select {
+    flex: 1;
+    height: 100%;
+    border: 0;
+    color: white;
+    background: transparent;
+    font-size: 18px;
+    text-align: center;
+}
+
+form button {
+    padding: 0 40px;
+    height: 100%;
+    background: #37B7C3;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+.searchResult {
+    height: 500px;
+    width: 90%;
+    margin: 10px auto 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.searchResult>div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: #088395;
+    height: 450px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.searchResult img {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+.gauge-container {
+    width: 200px;
+    height: 15px;
+    background: #e0e0e0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.gauge-bar {
+    text-align: start;
+    height: 15px;
+    background: linear-gradient(90deg, #4caf50, #8bc34a);
+}
+
+.gauge-bar>a {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+div>h3 {
+    font-size: 20px;
+    color: #004147
+}
+
+div>div>div {
+    text-align: start;
+}
