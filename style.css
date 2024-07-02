@@ -103,8 +103,6 @@ form button {
     border-radius: 5px;
 }
 
-
-
 .gauge-container {
     width: 200px;
     height: 15px;
@@ -113,7 +111,6 @@ form button {
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-
 
 .gauge-bar {
     text-align: start;
@@ -131,6 +128,7 @@ div>h3 {
     color: #004147
 }
 
-div>div>div {
+div>div>div>p {
     text-align: start;
+    margin-bottom: 5px;
 }
