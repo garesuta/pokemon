@@ -11,19 +11,13 @@
 <body>
     <h1>Pokemon Search Engine</h1>
     <form action="" id="searchForm">
-        <!-- <input type="text" name="" id="searchBox" placeholder="Search Your Pokemon Here..."> -->
-        <select name="" id="selectBox">
-            <option value="">Please Select Your Poke Number </option>
-            <option value="12">12</option>
-            <option value="24">24</option>
-            <option value="36">36</option>
-            <option value="48">48</option>
+        <select name="" id="selectBox" onchange="renderHTML(this)">
+            <option value="">Please Select Your Pokemon</option>
         </select>
-        <button>Search</button>
+        <button onclick="clear()">Clear</button>
 
     </form>
-    <div id="searchResult" class="searchResult"></div>
-    <!-- <button id="showMore-btn">Show More!</button> -->
+    <div id="dataContainer" class="searchResult"></div>
     <script src="index.js"></script>
 </body>
 
